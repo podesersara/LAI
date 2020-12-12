@@ -1,0 +1,82 @@
+/*Geral*/
+
+body{
+  font-size:  14px;
+  font-family: 'Poppins', sans-serif;
+  background-color: black;}
+
+
+/*Pesquisa*/
+h1{
+  color: #ffffff;
+  font-size: 50px;
+  position: absolute;
+  left: 25%;
+  top: 15%;
+}
+  
+#pesquisa {
+  width: 50%; 
+  position: absolute;
+  left: 25%;
+  top: 25%;
+  font-size: 16px; 
+  padding: 10px 22px 10px 42px; 
+  border-radius: 5px;
+  background-image: url('img/search.png');
+  background-position: 14px 13px; 
+  background-size: 15px;
+  background-repeat: no-repeat; 
+}
+
+
+/*Sem resltados*/
+#p1 {
+  position: absolute;
+  top: 35%;
+  left: 40% ;
+  padding: 18px;
+  margin: 0;
+  display: none;
+  text-decoration: none;
+  color: #ddd;
+  box-sizing: border-box;
+  background-color: #3500d3;
+  border-radius: 10px;
+}
+
+ #p1 a{
+  text-decoration: none;
+  color: blanchedalmond;
+  font-size: 16px;
+}
+
+/*Resultados*/
+#resultados {
+  list-style-type: none;
+  position: absolute;
+  top: 35%;
+  width: 45%;
+  left: 28%;
+  padding: 0;
+  margin: 0;
+}
+  
+#resultados li a {
+  border-radius: 5px;
+  border: 2px solid #3500d3; 
+  margin-top: 6px; 
+  background-color: #000000; 
+  padding: 18px; 
+  text-decoration: none; 
+  font-size: 18px; 
+  color:#ddd; 
+  display: block; 
+}
+  
+#resultados li a:hover{
+  background-color: #3500d3;
+  color: #ffffff ;
+}
+
+ 

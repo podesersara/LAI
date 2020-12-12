@@ -1,0 +1,218 @@
+/* Geral */
+body{
+	font-size:  14px;
+	font-family: 'Poppins', sans-serif;
+	background-image: url(../img/space.gif);
+	margin: 0px;
+	height: 3900px;
+}
+
+/* Menu */
+#main{
+	list-style:none;
+	padding-right: 2%;
+	display: flex;
+}
+
+#main a{
+	margin:30px;
+	color:#fff;
+	font-size: 20px;
+	text-decoration:none;
+}
+
+#main li.active a {
+	font-size: 22px;
+	color: #3500d3;
+}
+
+section{
+	width:100%;
+	height:95vh;
+	background-size:cover;
+	background-repeat:no-repeat;
+	position: relative;
+}
+
+nav {
+	width: 100%;
+	position: fixed;
+	display: flex;
+	justify-content: space-between;
+	align-items:center;
+	height:60px;
+    padding-top: 30px;
+	background-color: black;
+	z-index: 1;
+}
+
+
+.logo img{
+    width: 100px;
+	height: 100px;
+	padding-left: 5px;
+}
+
+/* Plataforma */
+#plataforma{
+	position: absolute;
+	left:30%;
+	top:42%;
+	transform:translate(-20%,-42%);
+}
+
+#plataforma p{
+	line-height:0px;
+}
+
+#plataforma #p1{
+	font-weight:bold;
+	color:#fff;
+    font-size:60px;
+    padding-bottom:30px;
+}
+
+#plataforma #p2{
+	font-weight:bold;
+	letter-spacing:1px;
+	color: #3500d3;
+    font-size:90px;
+    padding-bottom: 30px;
+}
+
+#plataforma #p3{
+	color: #6d6d6d;
+	font-size:20px;
+	line-height:40px;
+}
+
+#plataforma button{
+	width:130px;
+	height:42px;
+	border-radius:10px;
+	font-weight:lighter;
+	font-size: 14px;
+	font-family: 'Poppins';
+	outline:none;
+	margin:20px 10px;
+	background-color: #3500d3;
+	color: #fff;
+	cursor: pointer;
+}
+
+#plataforma button:active{
+	transform:scale(1.1);
+}
+
+
+/* Pesquisa */
+#pesquisa{
+	width:100%;
+	height:330px;
+	background: #000000;;
+	display: flex;
+	margin: -7%  auto 20px auto;
+	position: relative;
+	justify-content:space-evenly;
+    align-items: center;
+	margin-bottom: 300px;
+	margin-top: 100px;
+}
+
+#pesquisa img{
+	height:250px;
+}
+
+#pesquisa #text{
+	width:500px;
+} 
+
+#pesquisa #text #p1{
+	color:#fff;
+	font-weight:bold;
+	font-size:23px;
+	line-height: 1px;
+}
+
+
+#pesquisa #text #p3{
+	color: #fff;
+	font-size:16px;
+}
+
+#pesquisa #text #p4{
+    color: #fff;
+	font-size:16px; 
+}
+    
+#pesquisa #text button{
+	width:120px;
+	height: 40px;
+	color:#ffffff;
+	outline:none;
+	border:none;
+	border-radius: 10px;
+	font-family: 'Poppins';
+	background-color:#3500d3;
+	cursor: pointer;
+}
+
+
+/* Sobre */
+#sobre{
+	width:100%;
+	height:900px;
+	background: #0c0032;
+	display: flex;
+	margin: -7%  auto 20px auto;
+	position: relative;
+	justify-content:space-evenly;
+	align-items: center;
+}
+
+#sobre img{
+	height:250px;
+}
+
+#sobre #text{
+	width:500px;
+} 
+
+#sobre #text #p1{
+	color:#fff;
+	font-weight:bold;
+	font-size:23px;
+	line-height:0px;
+}
+
+
+
+#sobre #text #p3{
+	color: #fff;
+	font-size:16px; 
+}
+
+#sobre #text #p4{
+    color: #fff;
+	font-size:16px; 
+}
+
+/* Colabora */
+#colabora{
+	width: 100%;
+	height:500px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-top: 170px;
+
+}
+
+#colabora p{
+	color:#FFFFFF;
+	font-size: 30px;
+    font-weight:bold;
+	margin: 8px;
+
+}
